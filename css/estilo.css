@@ -1,0 +1,15 @@
+body{font-family: Verdana, Geneva, Tahoma, sans-serif; background-color:aquamarine;}
+
+h1{text-align: center;}
+
+section{width: 400px;}
+
+/*FORMATANDO O BLOCO 1*/
+.bloco1 p{color:blueviolet;} /*formatando todas as tags P dentro da classe 'bloco1'*/
+.bloco1 > p{text-decoration: line-through; text-align: end;} /* esse seletor > irá selecionar todas as filhas diretas da tag mãe*/
+.bloco1{ border:2px red solid; }
+
+/*FORMATANDO O BLOCO 2*/
+.bloco2{border: 2px solid green;} /* */
+
+.bloco2 + p{text-transform: uppercase; color: olive;} /* O seletor + é o adjacente, que irá formatar o elemento exatamente após o seletor que usamos de referência, nesse caso, é o bloco2 */

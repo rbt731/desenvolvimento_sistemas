@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usando seletor adjacente</title>
+    <style>
+        body{background-color: plum;}
+        .lista{width: 200px;border: 2px solid black; color: black;background-color: cadetblue; padding: 10px; display:none}
+        a:hover + .lista{display: block;}
+    </style>
+
+</head>
+<body>
+    <a href="">Menu de compras</a>
+    <section class = "lista">
+        <p>Fruta</p>
+        <p>Verdura</p>
+        <p>Açougue</p>
+    </section>
+</body>
+</html>
