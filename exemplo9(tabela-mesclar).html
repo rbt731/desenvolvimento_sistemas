@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tabela-mesclar.css">
+
+    <title> Trabalhando com tabelas</title>
+</head>
+<body>
+    <hr>
+    <h1>Contados</h1>
+    <hr>
+
+    <table>
+        <!-- thead é uma tag que define o cabeçario da tabela -->
+        <thead>
+            <tr> <!-- a tag tr define uma linha na tabela -->
+                <th>Nome</th> <!-- a tag th define uma coluna de cabeçalho -->
+                <th colspan = "2">Email</th>
+                
+            </tr>
+        </thead>
+
+        <tbody> <!-- a tag tbody irá organizar o corpo/conteúdo das tabelas-->
+            <!-- linha 1 -->
+            <tr>
+                <td rowspan = "2">José</td>
+                <td>email_1</td>
+                <td>email_2</td>
+            </tr>
+            <!-- linha 2 -->
+            <tr>
+                <td>email_3</td>
+                <td>email_4</td>
+            </tr>
+            <!-- linha 3 -->
+            <!-- colspan mescla colunas, e rowspan mescla as linhas -->
+            <tr>
+                <td rowspan = "2">Maria</td>
+                <td>email_5</td>
+                <td>email_6</td>
+            </tr>
+            <!-- linha 4 -->
+            <tr>
+                <td>email_7</td>
+                <td>email_8</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
