@@ -1,0 +1,31 @@
+body{
+    font-family: Verdana;
+}
+
+h1{
+    text-align: center;
+}
+
+/* formulário */
+
+form{
+    width: 80%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box; /* Só é necessario quando existir padding e border para ajustar qualquer dimensão dela */
+    border-radius: 5px; /* usado para modifiar a borda */
+    outline: none;
+    border: 1px solid gray;
+}
+
+input:focus{
+    box-shadow: 0 0 10px black /* colocar sombra em caixas */
+}
